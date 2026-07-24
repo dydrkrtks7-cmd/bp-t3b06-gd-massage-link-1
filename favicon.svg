@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
-  <metadata>BPaaS site identity f07aeb2f0db5e961</metadata>
-  <rect width="64" height="64" rx="15" fill="hsl(2 60% 37%)"/>
-  <path d="M24 0h40v64H10Z" fill="hsl(140 81% 71%)" opacity="0.82"/>
-  <g transform="rotate(314 32 32)" opacity="0.42"><path d="M12 32c8-17 32-17 40 0-8 17-32 17-40 0Z" fill="none" stroke="#ffffff" stroke-width="6"/></g>
-  <text x="32" y="39" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="0">GB</text>
+  <title>공덕 마사지 링크</title>
+  <rect width="64" height="64" rx="11" fill="hsl(2 55% 33%)"/>
+  <g transform="rotate(180 32 32)"><rect x="15" y="15" width="28" height="28" rx="6" fill="none" stroke="hsl(2 24% 96%)" stroke-width="6"/><rect x="25" y="25" width="24" height="24" rx="6" fill="hsl(162 68% 63%)"/></g>
 </svg>
