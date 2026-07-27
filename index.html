@@ -1,748 +1,107 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홈 - 공덕 마사지 링크</title>
-    <meta name="description" content="공덕에서 진짜 마사지 찾는다면? 링크 마사지. 브로들이 인정한 리얼 후기, 파격적인 텐션, 그리고 단 1%의 가짜 없는 손맛. 지금 전화주세요!">
-    <meta name="keywords" content="공덕 마사지, 공덕 마사지 링크, 마사지, 마사지샵, 공덕동, 링크 마사지">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://gongdeok-body-review.link-hub.org/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gongdeok-body-review.link-hub.org/">
-    <meta property="og:title" content="공덕 마사지 링크 - 브로들의 마사지">
-    <meta property="og:description" content="공덕에서 진짜 마사지 찾는다면? 링크 마사지. 리얼 후기, 파격 텐션, 가짜 없는 손맛.">
-    <meta property="og:image" content="https://t3b06-gd-massage-link-1.vercel.app/og-image.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://t3b06-gd-massage-link-1.vercel.app/">
-    <meta property="twitter:title" content="공덕 마사지 링크 - 브로들의 마사지">
-    <meta property="twitter:description" content="공덕에서 진짜 마사지 찾는다면? 링크 마사지. 리얼 후기, 파격 텐션, 가짜 없는 손맛.">
-    <meta property="twitter:image" content="https://t3b06-gd-massage-link-1.vercel.app/twitter-image.jpg">
-
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "공덕 마사지 링크",
-  "description": "공덕에서 진짜 마사지 찾는다면? 링크 마사지. 브로들이 인정한 리얼 후기, 파격적인 텐션, 그리고 단 1%의 가짜 없는 손맛.",
-  "url": "https://gongdeok-body-review.link-hub.org/",
-  "telephone": "+82-10-6279-0862",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "서울",
-    "addressRegion": "마포구",
-    "addressCountry": "KR"
-  },
-  "areaServed": "공덕동",
-  "openingHours": "Mo-Su 10:00-22:00",
-  "priceRange": "₩₩"
-}</script>
-
-    <style>
-        /* RESET */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* BASE */
-        body {
-            background: #000000;
-            color: #ffffff;
-            font-family: Impact, system-ui, sans-serif;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            text-transform: uppercase;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* TYPOGRAPHY - oversized, raw, brutal */
-        h1 {
-            font-size: clamp(3.5rem, 15vw, 6rem);
-            font-weight: 900;
-            line-height: 0.9;
-            letter-spacing: -0.03em;
-            color: #ffffff;
-            text-shadow: 6px 6px 0 #ff3b00;
-            margin: 0;
-            transform: skew(-5deg);
-        }
-        h2 {
-            font-size: clamp(2.5rem, 10vw, 4rem);
-            font-weight: 900;
-            line-height: 1;
-            letter-spacing: -0.02em;
-            border-left: 6px solid #ff3b00;
-            padding-left: 24px;
-            margin: 0 0 24px 0;
-            transform: rotate(-1deg);
-        }
-        h3 {
-            font-size: clamp(1.8rem, 6vw, 2.5rem);
-            font-weight: 700;
-            letter-spacing: -0.01em;
-            margin: 0 0 16px 0;
-        }
-        p, li, blockquote {
-            font-family: system-ui, sans-serif;
-            font-weight: 400;
-            text-transform: none;
-            letter-spacing: 0.01em;
-            line-height: 1.6;
-        }
-        a {
-            color: #ff3b00;
-            text-decoration: underline wavy 2px #ffffff;
-            transition: color 0.2s;
-        }
-        a:hover {
-            color: #ffffff;
-            text-decoration-color: #ff3b00;
-        }
-
-        /* LAYOUT - full bleed, asymmetric */
-        header, nav, main, section, footer {
-            width: 100%;
-            max-width: none;
-        }
-
-        .container {
-            padding: 72px 72px 72px 72px;
-            max-width: 1400px;
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        .full-bleed {
-            padding-left: 0;
-            padding-right: 0;
-            max-width: 100%;
-        }
-
-        /* SPACING */
-        .gap-48 { margin-bottom: 48px; }
-        .gap-72 { margin-bottom: 72px; }
-        .gap-120 { margin-bottom: 120px; }
-        section { margin-bottom: 120px; }
-
-        /* BUTTONS / CTA */
-        .btn {
-            display: inline-block;
-            padding: 24px 48px;
-            background: #ff3b00;
-            color: #ffffff;
-            font-family: Impact, system-ui, sans-serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            border: 4px solid #ffffff;
-            box-shadow: 8px 8px 0 #000000;
-            transform: rotate(-2deg);
-            transition: 0.15s ease;
-            text-decoration: none;
-            margin: 24px 0;
-        }
-        .btn:hover {
-            transform: rotate(1deg) scale(1.02);
-            background: #000000;
-            color: #ff3b00;
-            border-color: #ff3b00;
-            box-shadow: 8px 8px 0 #ff3b00;
-            text-decoration: none;
-        }
-
-        /* HEADER + NAV */
-        header {
-            border-bottom: 4px solid #ff3b00;
-            padding: 24px 72px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #000000;
-            position: relative;
-            z-index: 100;
-        }
-        .logo {
-            font-size: 2rem;
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            color: #ffffff;
-            text-decoration: none;
-            transform: skewX(-10deg);
-        }
-        .logo span {
-            color: #ff3b00;
-        }
-
-        /* desktop nav */
-        nav {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-        }
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            border: 2px solid transparent;
-            padding: 8px 16px;
-            transition: 0.15s;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            border-color: #ff3b00;
-            color: #ff3b00;
-            text-decoration: none;
-            transform: scale(1.1);
-        }
-        .nav-phone {
-            background: #ff3b00;
-            color: #ffffff !important;
-            padding: 12px 24px;
-            border: 3px solid #ffffff;
-            font-weight: 700;
-        }
-        .nav-phone:hover {
-            background: #ffffff;
-            color: #000000 !important;
-            border-color: #000000;
-        }
-
-        /* HAMBURGER - pure css */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 6px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 8px;
-            z-index: 200;
-        }
-        .hamburger span {
-            display: block;
-            width: 38px;
-            height: 4px;
-            background: #ffffff;
-            border: 2px solid #ff3b00;
-            transition: 0.3s;
-        }
-        #menu-toggle {
-            display: none;
-        }
-        #menu-toggle:checked ~ .hamburger span:nth-child(1) {
-            transform: rotate(45deg) translate(6px, 6px);
-        }
-        #menu-toggle:checked ~ .hamburger span:nth-child(2) {
-            opacity: 0;
-        }
-        #menu-toggle:checked ~ .hamburger span:nth-child(3) {
-            transform: rotate(-45deg) translate(6px, -6px);
-        }
-
-        /* HERO */
-        .hero {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-            min-height: 80vh;
-            padding: 72px;
-            position: relative;
-            background: #000000;
-            border-bottom: 4px solid #ff3b00;
-        }
-        .hero::before {
-            content: "🔥";
-            position: absolute;
-            top: 20px;
-            right: 40px;
-            font-size: 8rem;
-            opacity: 0.3;
-            transform: rotate(15deg);
-        }
-        .hero h1 {
-            max-width: 84%;
-        }
-        .hero p {
-            font-size: 1.6rem;
-            max-width: 600px;
-            margin: 24px 0;
-            background: #ff3b00;
-            padding: 16px 24px;
-            border: 4px solid #ffffff;
-            transform: skewX(-3deg);
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-        .hero .sub {
-            font-size: 1.2rem;
-            font-weight: 300;
-            text-transform: none;
-            background: none;
-            border: none;
-            padding: 0;
-            color: #aaaaaa;
-            transform: none;
-            margin-top: 8px;
-        }
-
-        /* REVIEW CARDS - UGC */
-        .review-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 48px;
-            margin-top: 48px;
-        }
-        .review-card {
-            background: #111111;
-            border: 4px solid #ffffff;
-            padding: 48px 32px;
-            position: relative;
-            transform: rotate(var(--rot, 0deg));
-            transition: 0.2s;
-        }
-        .review-card:nth-child(odd) { --rot: -1deg; }
-        .review-card:nth-child(even) { --rot: 1deg; }
-        .review-card:hover {
-            transform: rotate(0deg) scale(1.02);
-            border-color: #ff3b00;
-        }
-        .review-card .stars {
-            color: #ff3b00;
-            font-size: 1.8rem;
-            letter-spacing: 4px;
-            margin-bottom: 12px;
-        }
-        .review-card blockquote {
-            font-size: 1.2rem;
-            font-style: italic;
-            margin: 16px 0;
-            border-left: 3px solid #ff3b00;
-            padding-left: 16px;
-            color: #dddddd;
-        }
-        .review-card .meta {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.9rem;
-            color: #888;
-            text-transform: uppercase;
-            border-top: 2px dotted #333;
-            padding-top: 16px;
-            margin-top: 16px;
-        }
-        .review-card .meta span {
-            font-weight: 600;
-            color: #ffffff;
-        }
-
-        /* ABOUT / INFO SECTIONS */
-        .info-block {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 48px;
-            align-items: center;
-        }
-        .info-block > * {
-            flex: 1 1 300px;
-        }
-        .info-block .visual {
-            background: #ff3b00;
-            min-height: 280px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 6rem;
-            border: 6px solid #ffffff;
-            transform: rotate(2deg);
-            position: relative;
-        }
-        .info-block .visual::after {
-            content: "";
-            position: absolute;
-            top: -12px; left: -12px;
-            width: 40px; height: 40px;
-            background: #000000;
-            border: 4px solid #ff3b00;
-            transform: rotate(45deg);
-        }
-
-        /* FEATURES */
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 32px;
-        }
-        .feature-item {
-            background: #000000;
-            border: 4px solid #ffffff;
-            padding: 32px;
-            text-align: center;
-            transition: 0.2s;
-        }
-        .feature-item:hover {
-            border-color: #ff3b00;
-            transform: translateY(-8px);
-        }
-        .feature-item .icon {
-            font-size: 4rem;
-            margin-bottom: 16px;
-        }
-
-        /* MAP / SVG placeholder */
-        .map-placeholder {
-            width: 100%;
-            height: 400px;
-            background: repeating-linear-gradient(
-                45deg,
-                #111111,
-                #111111 20px,
-                #222222 20px,
-                #222222 40px
-            );
-            border: 6px solid #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            color: #ff3b00;
-            transform: rotate(-1deg);
-            position: relative;
-            overflow: hidden;
-        }
-        .map-placeholder::before {
-            content: "📍 공덕역 3번 출구";
-            font-size: 2rem;
-            background: #000000;
-            padding: 16px 32px;
-            border: 4px solid #ffffff;
-        }
-
-        /* FOOTER */
-        footer {
-            border-top: 4px solid #ff3b00;
-            padding: 48px 72px;
-            background: #000000;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            gap: 32px;
-        }
-        footer .copy {
-            font-size: 0.9rem;
-            color: #888;
-            text-transform: uppercase;
-        }
-        footer .footer-links {
-            display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-        }
-        footer .footer-links a {
-            color: #ffffff;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            font-size: 1rem;
-        }
-        footer .footer-links a:hover {
-            border-bottom-color: #ff3b00;
-        }
-
-        /* RESPONSIVE - 768px */
-        @media (max-width: 768px) {
-            .container {
-                padding: 36px 24px;
-            }
-            header {
-                padding: 16px 24px;
-            }
-            .hero {
-                padding: 36px 24px;
-                min-height: 60vh;
-            }
-            .hero h1 {
-                font-size: clamp(2.5rem, 12vw, 3.5rem);
-            }
-            .hero p {
-                font-size: 1.2rem;
-                padding: 12px 16px;
-            }
-            h2 {
-                font-size: 2rem;
-                border-left-width: 4px;
-                padding-left: 12px;
-            }
-            .review-grid {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-            .info-block {
-                flex-direction: column;
-            }
-            .info-block .visual {
-                min-height: 200px;
-                font-size: 4rem;
-            }
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
-            footer {
-                padding: 32px 24px;
-                flex-direction: column;
-                text-align: center;
-            }
-
-            /* hamburger visible */
-            .hamburger {
-                display: flex;
-            }
-            nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                background: #000000;
-                flex-direction: column;
-                padding: 48px 24px;
-                gap: 24px;
-                border-bottom: 4px solid #ff3b00;
-                z-index: 99;
-            }
-            nav a {
-                font-size: 1.5rem;
-            }
-            #menu-toggle:checked ~ nav {
-                display: flex;
-            }
-            /* header 내에서 형제 선택자를 위해 구조 변경 */
-            header .nav-wrap {
-                display: contents;
-            }
-        }
-
-        /* UTILITIES */
-        .text-accent { color: #ff3b00; }
-        .bg-accent { background: #ff3b00; }
-        .border-accent { border-color: #ff3b00; }
-        .rotate-1 { transform: rotate(1deg); }
-        .rotate-2 { transform: rotate(-2deg); }
-        .skew { transform: skewX(-4deg); }
-        .no-underline { text-decoration: none; }
-
-        /* raw css texture - noise overlay */
-        body::after {
-            content: "";
-            position: fixed;
-            top: 0; left: 0;
-            width: 100vw; height: 100vh;
-            pointer-events: none;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-            opacity: 0.03;
-            mix-blend-mode: overlay;
-        }
-
-        /* star rating raw */
-        .stars {
-            unicode-bidi: bidi-override;
-            color: #ff3b00;
-        }
-        .stars::before {
-            content: "★★★★★";
-            letter-spacing: 4px;
-        }
-
-        /* cta floating */
-        .sticky-cta {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            background: #ff3b00;
-            color: #ffffff;
-            border: 4px solid #ffffff;
-            padding: 16px 32px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            box-shadow: 6px 6px 0 #000000;
-            z-index: 999;
-            transform: rotate(3deg);
-            transition: 0.2s;
-            text-decoration: none;
-            font-family: Impact, system-ui, sans-serif;
-        }
-        .sticky-cta:hover {
-            transform: rotate(-2deg) scale(1.05);
-            background: #000000;
-            color: #ff3b00;
-            border-color: #ff3b00;
-        }
-        @media (max-width: 768px) {
-            .sticky-cta {
-                padding: 12px 20px;
-                font-size: 1rem;
-                bottom: 16px;
-                right: 16px;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <title>공덕 마사지 링크 - 홈</title>
+  <meta name="description" content="공덕 지역에서 마사지 서비스를 선택할 때, 사전에 정해야 할 항목과 당일 결정 가능한 사항을 시간대별로 정리했습니다. 빠른 판단이 필요한 방문자를 위한 실용적인 체크리스트와 조건별 적합성 안내를 제공합니다.">
+  <meta name="keywords" content="공덕 마사지, 마사지 선택 가이드, 시간대별 마사지, 현지 마사지 정보, 마사지를 빠르게 결정">
+  <link rel="canonical" href="https://gongdeok-body-review.link-hub.org/">
+  <meta property="og:title" content="공덕 마사지 링크 — 언제 선택하나요? 시간대별 가이드">
+  <meta property="og:description" content="공덕 지역 마사지 서비스를 시간대별로 비교하고, 사전 확인 항목과 당일 결정 가능한 사항을 안내합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gongdeok-body-review.link-hub.org/">
+  <meta property="og:image" content="https://gongdeok-body-review.link-hub.org/og-image.jpg">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>공덕 마사지 링크</h1>
+    <nav class="nav-present responsive-768">
+      <ul>
+        <li><a href="/index.html">홈</a></li>
+        <li><a href="/guide.html">가이드</a></li>
+        <li><a href="/service.html">서비스 소개</a></li>
+        <li><a href="/contact.html">연락처</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- HEADER + NAV -->
-    <header>
-        <a href="/" class="logo">MASSAGE<span>LINK</span></a>
+  <main>
+    <section>
+      <h2>공덕 지역 마사지의 기본 이해</h2>
+      <p>공덕은 교통의 요지이자 비즈니스와 문화가 융합된 지역으로, 다양한 마사지를 제공하는 업체가 집중되어 있습니다. 방문 목적이 스트레스 해소이든, 근육 회복이든, 혹은 단순한 휴식이든, 해당 지역 특성에 맞는 선택 기준을 먼저 파악하는 것이 효율적인 방문을 보장합니다.</p>
+      <p>특히 공덕은 업무 중심의 인구가 밀집해 있어, 시간대별로 서비스 제공 범위와 예약 가능성이 크게 달라집니다. 평일 낮시간에는 일반적인 스웨디시, 아로마 마사지가 주류를 이루지만, 저녁 이후에는 특별히 맞춤형 테라피나 스페셜 오일 트리트먼트가 활성화됩니다. 따라서 자신의 일정과 목적에 맞는 시간대를 정확히 선택하는 것이 중요합니다.</p>
+    </section>
 
-        <!-- hamburger -->
-        <input type="checkbox" id="menu-toggle" hidden>
-        <label for="menu-toggle" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-
-        <nav>
-            <a href="#about">어바웃</a>
-            <a href="#reviews">리뷰</a>
-            <a href="#location">위치</a>
-            <a href="tel:010-6279-0862" class="nav-phone">📞 전화</a>
-        </nav>
-    </header>
-
-    <main>
-        <!-- HERO -->
-        <section class="hero" id="hero">
-            <h1>공덕 마사지<br>링크</h1>
-            <p>🔥 브로들이 인
-
-
-
-
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>💡 GUIDE</span>
-          <time datetime="2026-06-15">2026-06-15</time>
+    <section>
+      <h2>시간대별 마사지 선택 체크리스트</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>09:00‑12:00 (아침·점심 전)</h3>
+          <p>아침에 피로가 누적된 직장인에게는 가벼운 스트레칭과 혈액 순환 촉진을 목표로 하는 스웨디시 마사지가 적합합니다. 예약 전에는 “요통 여부”, “근육 긴장도”를 확인하고, 가능하면 사전 설문을 통해 맞춤형 압력을 지정하세요.</p>
+          <p>이 시간대에는 대부분의 업체가 조식 패키지를 제공하므로, 마사지와 함께 간단한 차 서비스를 이용하면 전체적인 웰빙 효과를 높일 수 있습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h2>포스트 메타정보포스트 기획 테마: 마사지 해결 방법 총정리 — 전문가가 알려주는 5가지 팁 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: 추천 바로가기 "미사용 보스의 숨겨진 패턴, 엘든링 데이터 마이닝의 깊은 진실" ### 소제목1</h2>
-      </div>
-      <a href="posts/guide-001-14u3x79.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-11">2026-06-11</time>
+        <div class="card">
+          <h3>12:00‑15:00 (점심·오후)</h3>
+          <p>점심시간 이후에는 근육 회복과 피로 해소를 집중한 딥 티슈 혹은 스포츠 마사지가 인기가 높습니다. 근력 트레이닝을 마친 후라면, 근육 미세 손상 부위에 집중하는 것이 효과적이며, 이때는 “부위별 통증 정도”와 “최근 격렬한 활동 여부”를 미리 체크하는 것이 좋습니다.</p>
+          <p>많은 샵이 이 시간에 “점심 세트” 프로모션을 운영하므로, 마사지와 함께 제공되는 스낵이나 음료를 활용해 에너지 보충을 동시에 진행할 수 있습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">공덕 마사지 링크 경험자에게 물어본 현실적인 판단 기준</h4>
-        <h3>포스트 DNA f1dd3a52 <strong>제목: 창작한 제목</strong> "월 매출 3000 찍고도 6개월 만에 폐업한 진짜 원가 구조" #### 소제목1. <strong>폐업 이유의 신호</strong>2. <strong> 살아남은 업소들의 차별화 전략</strong> ##### 폐업 이유의 신호 월 매출 3000 찍고도</h3>
-      </div>
-      <a href="posts/interview-002-k9nnro.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
+        <div class="card">
+          <h3>15:00‑18:00 (오후·저녁 전)</h3>
+          <p>업무 종료 전후로는 긴장 완화와 정신적 안정에 초점을 맞춘 아로마 테라피가 추천됩니다. 향기의 종류에 따라 스트레스 감소 효과가 다르므로, “라벤더·유칼립투스·시트러스” 중 선호하는 향을 사전에 확인하고, 해당 향이 포함된 오일을 선택하도록 요청하세요.</p>
+          <p>이 시간대에는 사전 예약 없이 방문이 가능한 ‘워킹인’ 옵션이 늘어나므로, 급하게 휴식을 원할 경우 유연하게 이용할 수 있습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 화곡 셔츠룸 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
+        <div class="card">
+          <h3>18:00‑22:00 (저녁·야간)</h3>
+          <p>저녁 시간대는 심층적인 힐링을 목표로 하는 스페셜 코스가 주로 제공됩니다. 특히 커플 마사지를 원하는 커플이나, 장시간 근무 후 몸과 마음을 동시에 회복하고자 하는 고객에게 적합합니다. 예약 시 “특별 요청 사항”란에 커플 전용 트리트먼트 여부를 명시하고, 가능한 경우 사전 상담을 통해 세부 프로그램을 조율하세요.</p>
+          <p>다수의 업체가 이 시간에 ‘라이트 디너’ 혹은 ‘와인 서비스’를 동반한 프리미엄 패키지를 제공하므로, 마사지 후 간단한 식사와 함께 전반적인 휴식 경험을 최적화할 수 있습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 화곡 셔츠룸 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
       </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-11">2026-06-11</time>
+    </section>
+
+    <section>
+      <h2>고객 맞춤형 선택 기준</h2>
+      <p>마사지 선택 시 고려해야 할 핵심 요소는 인원(1인·2인·그룹), 시점(예약 전·당일 즉시), 그리고 목적(스트레스 해소·근육 회복·전문 치료)입니다. 각각의 상황에 맞는 체크리스트를 아래에 제시합니다.</p>
+      <ul>
+        <li><strong>인원</strong> : 1인 방문 시 개인 취향에 맞는 압력과 향을 선택하고, 2인 이상일 경우 공유 가능한 공간 및 프라이버시 옵션을 확인하세요.</li>
+        <li><strong>시점</strong> : 사전 예약이 가능한 경우, 원하는 테라피스트와 정확한 시간대를 지정할 수 있습니다. 당일 방문을 선호한다면 “워킹인 가능 여부”와 “대기시간”을 미리 문의하는 것이 효율적입니다.</li>
+        <li><strong>목적</strong> : 스트레스 해소는 아로마와 라이트 마사지를, 근육 회복은 딥 티슈·스포츠 마사지를, 전문 치료는 의료 연계 프로그램을 검토하세요.</li>
+      </ul>
+      <p>위 항목을 모두 검토한 뒤, 최종 선택을 위해 “가격·위치·리뷰”를 비교하고, 각 업체의 “전문가 자격증 보유 여부”와 “위생 관리 수준”을 확인하는 것이 신뢰성 높은 서비스를 받을 수 있는 핵심 포인트입니다.</p>
+    </section>
+
+    <section>
+      <h2>자주 묻는 질문 (FAQ)</h2>
+      <div class="grid grid-2">
+        <div class class="card">
+          <h3>Q1. 예약 없이 바로 방문할 수 있나요?</h3>
+          <p>A1. 대부분의 샵이 워킹인 옵션을 제공하지만, 인기 있는 시간대(특히 저녁)에는 대기 시간이 길어질 수 있습니다. 사전에 전화나 웹사이트를 통해 실시간 예약 가능 여부를 확인하는 것이 좋습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">데이터 과학자의 눈으로 본 NSA 슬라이드 7 : 실제와 음모론의 간극 ## 소제목### 섹션 1: 데이터 과학자의 시각으로 살펴본 슬라이드 내용### 섹션 2: 구글 트렌드와 실제 사건의 시간 차이 분석 #### 섹션 1: 데이터 과학자의 시각으로 살펴본 슬라이드 내</p>
-      </div>
-      <a href="posts/myth-001-k9nnro.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
+        <div class="card">
+          <h3>Q2. 특정 부위에만 집중한 마사지를 요청할 수 있나요?</h3>
+          <p>A2. 예, 사전 설문 또는 상담 시 “목·어깨·허리·다리” 등 원하는 부위를 명시하면 테라피스트가 맞춤형 압력과 테크닉을 적용합니다. 특히 스포츠 마사지에서는 부위별 상세 진단이 필수적입니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
+        <div class="card">
+          <h3>Q3. 마사지 후에 피부 관리 제품을 구매할 수 있나요?</h3>
+          <p>A3. 대부분의 고급 샵은 마사지와 연계된 오일·크림을 판매합니다. 특히 아로마 테라피 후에는 해당 향의 에센셜 오일을 추천받을 수 있어, 지속적인 효과를 누릴 수 있습니다.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
+        <div class="card">
+          <h3>Q4. 결제 방식은 어떤 것이 가능한가요?</h3>
+          <p>A4. 현금, 카드, 모바일 결제(Naver Pay, Kakao Pay) 등 다양한 옵션을 지원합니다. 일부 업체는 멤버십 포인트 적립 제도를 운영하니, 장기 이용을 계획한다면 회원 가입을 고려해 보세요.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
       </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h3>포스트 메타정보포스트 기획 테마: 공덕 마사지 링크 처음 알아볼 때 실제로 많이 묻는 질문 5가지 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: 마포 셔tees룸 예약 시 눈탱이 피하는 법 테라포밍 마스의 비너스 확장, 게임 밸런스</h3>
-      </div>
-      <a href="posts/qa-002-14u3x79.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <section>
+      <h2>연락 및 예약 안내</h2>
+      <p>공덕 지역 내 검증된 마사지 업체 리스트와 상세 연락처는 아래 버튼을 클릭하면 확인할 수 있습니다. 각 업체는 공식 웹페이지와 전화번호를 공개하고 있으며, 실시간 예약 시스템을 갖추고 있습니다. 방문 전 반드시 운영 시간과 휴무일을 재확인하시기 바랍니다.</p>
+      <button onclick="location.href='https://gongdeok-body-review.link-hub.org/guide.html'">전문 가이드 보기</button>
+      <button onclick="location.href='https://gongdeok-body-review.link-hub.org/contact.html'">예약 및 문의하기</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 공덕 마사지 링크. All rights reserved.</p>
+  </footer>
 </body>
 </html>
